@@ -1,0 +1,417 @@
+{
+    "questions": [
+        {
+            "id": "UCM-K-C-01",
+            "text": "Are employees currently allowed to use their own devices on the network or are only corporate owned devices allowed?",
+            "answers": [
+                {
+                    "id": "0",
+                    "text": "Only corporate devices allowed",
+                    "next_id": "UCM-K-F-01",
+                    "disposition": "WF-002a"
+                },
+                {
+                    "id": "1",
+                    "text": "Corporate & personal devices allowed",
+                    "next_id": "UCM-K-C-02",
+                    "disposition": ""
+                }
+            ]
+        },
+        {
+            "id": "UCM-K-C-02",
+            "text": "Is network access for employee owned/personal devices limited? E.g. Internet access only?",
+            "answers": [
+                {
+                    "id": "2",
+                    "text": "Yes, limited to Internet access only",
+                    "next_id": "UCM-K-F-01",
+                    "disposition": "WF-002b"
+                },
+                {
+                    "id": "3",
+                    "text": "Not limited",
+                    "next_id": "UCM-K-C-03",
+                    "disposition": ""
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-C-03",
+            "text": "Do you provide any virtualized desktop (i.e. VDI) technology to desktops and mobile platforms?",
+            "answers": [
+                {
+                    "id": "4",
+                    "text": "No, no VDI technology in use",
+                    "next_id": "UCM-K-C-04B",
+                    "disposition": ""
+                },
+                {
+                    "id": "5",
+                    "text": "Yes, VDI technology is utilized",
+                    "next_id": "UCM-K-C-04A",
+                    "disposition": ""
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-C-04A",
+            "text": "Are you managing custom applications formobile platforms, i.e. Via Enterprise AppStore?",
+            "answers": [
+                {
+                    "id": "6",
+                    "text": "No",
+                    "next_id": "UCM-K-C-05A",
+                    "disposition": ""
+                },
+                {
+                    "id": "7",
+                    "text": "Yes",
+                    "next_id": "UCM-K-C-05B",
+                    "disposition": ""
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-C-04B",
+            "text": "Are you managing custom applications formobile platforms, i.e. Via Enterprise AppStore?",
+            "answers": [
+                {
+                    "id": "8",
+                    "text": "Yes",
+                    "next_id": "UCM-K-C-05C",
+                    "disposition": ""
+                },
+                {
+                    "id": "9",
+                    "text": "Yes",
+                    "next_id": "UCM-K-C-05D",
+                    "disposition": ""
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-C-05A",
+            "text": "Are you providing Guest/Customer devices with enhanced services or Internet access only?",
+            "answers": [
+                {
+                    "id": "10",
+                    "text": "Additional Services",
+                    "next_id": "",
+                    "disposition": "WF-002c"
+                },
+                {
+                    "id": "11",
+                    "text": "Internet or limited access only",
+                    "next_id": "UCM-K-F-01",
+                    "disposition": "WF-002c"
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-C-05B",
+            "text": "Are you providing Guest/Customer devices with enhanced services or Internet access only?",
+            "answers": [
+                {
+                    "id": "12",
+                    "text": "Additional Services",
+                    "next_id": "UCM-K-F-01",
+                    "disposition": "WF-002c"
+                },
+                {
+                    "id": "13",
+                    "text": "Internet or limited access only",
+                    "next_id": "UCM-K-F-01",
+                    "disposition": "WF-002d"
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-C-05C",
+            "text": "Are you providing Guest/Customer devices with enhanced services or Internet access only?",
+            "answers": [
+                {
+                    "id": "14",
+                    "text": "Additional Services",
+                    "next_id": "UCM-K-F-01",
+                    "disposition": "WF-002c"
+                },
+                {
+                    "id": "15",
+                    "text": "Internet or limited access only",
+                    "next_id": "UCM-K-F-01",
+                    "disposition": "WF-002d"
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-C-05D",
+            "text": "Are you providing Guest/Customer devices with enhanced services or Internet access only?",
+            "answers": [
+                {
+                    "id": "16",
+                    "text": "Additional Services",
+                    "next_id": "UCM-K-F-01",
+                    "disposition": "WF-002d"
+                },
+                {
+                    "id": "17",
+                    "text": "Internet or limited access only",
+                    "next_id": "UCM-K-F-01",
+                    "disposition": "WF-002d"
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-F-01",
+            "text": "Will employees be allowed to use their own devices on the network or should only corporate owned devices be allowed?",
+            "answers": [
+                {
+                    "id": "18",
+                    "text": "Corporate & Personal",
+                    "next_id": "UCM-K-F-02",
+                    "disposition": ""
+                },
+                {
+                    "id": "19",
+                    "text": "Corporate Only",
+                    "next_id": "UCM-S-F-03",
+                    "disposition": "WF-003a"
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-F-02",
+            "text": "Should network access for employee owned/personal devices limited? E.g. Internet access only?",
+            "answers": [
+                {
+                    "id": "20",
+                    "text": "Not limited",
+                    "next_id": "UCM-K-F-03",
+                    "disposition": ""
+                },
+                {
+                    "id": "21",
+                    "text": "Yes, limited to Internet and/or email Only",
+                    "next_id": "UCM-S-F-03",
+                    "disposition": "WF-003b"
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-F-03",
+            "text": "Do you plan to provide any virtualized desktop (i.e. VDI) technology to desktops and mobile platforms?",
+            "answers": [
+                {
+                    "id": "21",
+                    "text": "Yes, VDI technology will be used",
+                    "next_id": "UCM-K-F-04B",
+                    "disposition": ""
+                },
+                {
+                    "id": "22",
+                    "text": "No, VDI technology not used",
+                    "next_id": "UCM-K-F-04A",
+                    "disposition": ""
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-F-04A",
+            "text": "Will you bemanaging custom applications formobile platforms, i.e. Via Enterprise AppStore?",
+            "answers": [
+                {
+                    "id": "23",
+                    "text": "Yes",
+                    "next_id": "UCM-K-F-05B",
+                    "disposition": ""
+                },
+                {
+                    "id": "24",
+                    "text": "No",
+                    "next_id": "UCM-K-F-05A",
+                    "disposition": ""
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-F-04B",
+            "text": "Will you bemanaging custom applications formobile platforms, i.e. Via Enterprise AppStore?",
+            "answers": [
+                {
+                    "id": "25",
+                    "text": "Yes",
+                    "next_id": "UCM-K-F-05D",
+                    "disposition": ""
+                },
+                {
+                    "id": "26",
+                    "text": "No",
+                    "next_id": "UCM-K-F-05A",
+                    "disposition": ""
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-K-F-05A",
+            "text": "Will you provide Guest/ Customer devices with enhanced services or Internet access only?",
+            "answers": [
+                {
+                    "id": "27",
+                    "text": "Additional Services",
+                    "next_id": "UCM-S-F-03",
+                    "disposition": "WF-002d"
+                },
+                {
+                    "id": "28",
+                    "text": "Internet or limited access only",
+                    "next_id": "UCM-S-F-03",
+                    "disposition": "WF-002d"
+                }
+            ]
+        },
+        {
+            "id": "UCM-K-F-05B",
+            "text": "Will you provide Guest/ Customer devices with enhanced services or Internet access only?",
+            "answers": [
+                {
+                    "id": "29",
+                    "text": "Additional Services",
+                    "next_id": "UCM-S-F-03",
+                    "disposition": "WF-002c"
+                },
+                {
+                    "id": "30",
+                    "text": "Internet or limited access only",
+                    "next_id": "UCM-S-F-03",
+                    "disposition": "WF-002d"
+                }
+            ]
+        },
+        {
+            "id": "UCM-K-F-05C",
+            "text": "Will you provide Guest/ Customer devices with enhanced services or Internet access only?",
+            "answers": [
+                {
+                    "id": "31",
+                    "text": "Additional Services",
+                    "next_id": "UCM-S-F-03",
+                    "disposition": "WF-002c"
+                },
+                {
+                    "id": "32",
+                    "text": "Internet or limited access only",
+                    "next_id": "UCM-S-F-03",
+                    "disposition": "WF-002d"
+                }
+            ]
+        },
+        {
+            "id": "UCM-K-F-05D",
+            "text": "Will you provide Guest/ Customer devices with enhanced services or Internet access only?",
+            "answers": [
+                {
+                    "id": "33",
+                    "text": "Additional Services",
+                    "next_id": "UCM-S-F-03",
+                    "disposition": "WF-002c"
+                },
+                {
+                    "id": "34",
+                    "text": "Internet or limited access only",
+                    "next_id": "UCM-S-F-03",
+                    "disposition": "WF-002c"
+                }
+            ]
+        },
+        {
+            "id": "UCM-S-F-03",
+            "text": "Will you be using a remote access and/or VPN infrastructure to provide IT managed devices with full on-site and off-site access?",
+            "answers": [
+                {
+                    "id": "35",
+                    "text": "Yes",
+                    "next_id": "UCM-S-F-06",
+                    "disposition": ""
+                },
+                {
+                    "id": "36",
+                    "text": "No",
+                    "next_id": "UCM-S-F-06",
+                    "disposition": "WF-003a"
+                }
+
+            ]
+        },
+        {
+            "id": "UCM-S-F-06",
+            "text": "Should there be any differentiated access to users and devices that connect to your network?",
+            "answers": [
+                {
+                    "id": "37",
+                    "text": "Yes",
+                    "next_id": "Summary",
+                    "disposition": ""
+                },
+                {
+                    "id": "38",
+                    "text": "No",
+                    "next_id": "Summary",
+                    "disposition": ""
+                }
+
+            ]
+        }
+    ],
+    "outcomes": [
+        {
+            "id": "WF-001",
+            "value": "startPage"
+        },
+        {
+            "id": "WF-002a",
+            "value": "restricted"
+        },
+        {
+            "id": "WF-002b",
+            "value": "basic"
+        },
+        {
+            "id": "WF-002c",
+            "value": "advanced"
+        },
+        {
+            "id": "WF-002d",
+            "value": "enhanced"
+        },
+        {
+            "id": "WF-003a",
+            "value": "restrictedEnd"
+        },
+        {
+            "id": "WF-003b",
+            "value": "basicEnd"
+        },
+        {
+            "id": "WF-003c",
+            "value": "advancedEnd"
+        },
+        {
+            "id": "WF-003d",
+            "value": "enhancedEnd"
+        }
+    ]
+}

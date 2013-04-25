@@ -1,6 +1,3 @@
 window.MainModel = Backbone.Model.extend({
-
-    initialize:function () {
-
-    }
+    urlRoot:db_host + "js/json/data.json"
 });

@@ -1,0 +1,380 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222; }
+
+body {
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0px;
+  overflow: hidden;
+  position: absolute; }
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+img {
+  vertical-align: middle; }
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+textarea {
+  resize: vertical; }
+
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #FFF;
+  padding: 0.2em 0; }
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+  background-color: #FFFFFF; }
+
+.wrapper {
+  width: 90%;
+  margin: 0 5%; }
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+.header-container {
+  border-bottom: 20px solid #e44d26; }
+
+.footer-container,
+.main aside {
+  border-top: 20px solid #e44d26; }
+
+.header-container,
+.footer-container,
+.main aside {
+  background: #f16529; }
+
+.title {
+  color: white; }
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+nav ul {
+  margin: 0;
+  padding: 0; }
+
+nav a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: #e44d26; }
+
+nav a:hover,
+nav a:visited {
+  color: white; }
+
+nav a:hover {
+  text-decoration: underline; }
+
+/* ==============
+    MOBILE: Main
+   ============== */
+.main {
+  padding: 30px 0; }
+
+.main article h1 {
+  font-size: 2em; }
+
+.main aside {
+  color: white;
+  padding: 0px 5% 10px; }
+
+.footer-container footer {
+  color: white;
+  padding: 20px 0; }
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+.ie7 .title {
+  padding-top: 20px; }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*
+-ms-content-zooming: none;
+@-ms-viewport { width: device-width; }
+*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
+.cfm {
+  zoom: 1; }
+  .cfm:before, .cfm:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .cfm:after {
+    clear: both; }
+
+/*
+$arial_uni: 'Arial Unicode MS';
+
+@font-face{
+  font-family:'Arial Unicode MS';
+  src: url("fonts/ARIALUNI.TTF");
+}
+*/
+body {
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+  spacing: 0px;
+  margin: 0px;
+  font-family: Arial, Verdana, Helvetica, sans-serif; }
+
+#loading {
+  position: absolute;
+  top: 45%;
+  left: 50%; }
+
+@font-face {
+  font-family: 'Ciscoblack';
+  src: url("fonts/CISCOBLA.TTF"); }
+
+@font-face {
+  font-family: 'Ciscobold';
+  src: url("fonts/CISCOBOL.TTF"); }
+
+@font-face {
+  font-family: 'Ciscolight';
+  src: url("fonts/CISCOLIG.TTF"); }
+
+@font-face {
+  font-family: 'Ciscoregular';
+  src: url("fonts/CISCOREG.TTF"); }
+
+@font-face {
+  font-family: 'Ciscosymbol';
+  src: url("fonts/CISCOSYM.TTF"); }
+
+#main {
+  position: absolute;
+  background-color: #FFF;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  spacing: 0px; }
+  #main .state {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    spacing: 0px;
+    padding: 0px; }
+  #main #header {
+    -moz-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5); }
+    #main #header img {
+      position: absolute;
+      border: 0px;
+      max-width: 100%; }
+    #main #header #logo {
+      background: url(../img/logo.png) no-repeat;
+      width: 68px;
+      height: 36px;
+      position: absolute;
+      margin-left: 22px;
+      top: 19px; }
+    #main #header #header_title {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      color: #FFF;
+      font-family: "Ciscoregular";
+      font-size: 24px;
+      line-height: 74px; }
+  #main #intro {
+    position: absolute;
+    padding: 0px;
+    spacing: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%; }
+    #main #intro img {
+      position: absolute;
+      border: 0px;
+      max-width: 100%; }
+    #main #intro #intro_copyblock {
+      width: 611px;
+      height: 449px;
+      position: absolute;
+      top: 50%;
+      margin-top: -250px;
+      left: 50%;
+      margin-left: -305.5px;
+      background: url(../img/intro/intro_copyblock.jpg) no-repeat;
+      -moz-box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.5);
+      padding-top: 40px; }
+      #main #intro #intro_copyblock .heading {
+        color: #000;
+        font-family: "Ciscolight";
+        font-size: 36px;
+        margin-left: 20px;
+        margin-right: 20px; }
+      #main #intro #intro_copyblock .intro_hr {
+        border-bottom: 1px solid #525252;
+        width: 571px;
+        height: 30px;
+        margin-left: 20px; }
+      #main #intro #intro_copyblock .subheading {
+        color: #000;
+        font-family: "Ciscolight";
+        font-size: 21px;
+        margin-left: 20px;
+        margin-right: 20px; }
+      #main #intro #intro_copyblock .body_copy {
+        color: #000;
+        font-family: "Ciscoregular";
+        font-size: 13px;
+        line-height: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: inline-block;
+        margin-bottom: 20px; }
+    #main #intro #begin_button {
+      width: 120px;
+      height: 37px;
+      background: url(../img/button.jpg) no-repeat;
+      color: #FFF;
+      font-family: "Ciscobold";
+      font-size: 14px;
+      text-align: center;
+      line-height: 35px;
+      cursor: pointer;
+      position: relative;
+      left: 50%;
+      margin-left: -60px; }
+  #main #questions {
+    position: absolute;
+    padding: 0px;
+    spacing: 0px;
+    margin: 0px;
+    top: 74px;
+    background: #e0eff6; }
+    #main #questions #questions_main #questions_header {
+      height: 69px;
+      width: 100%;
+      background: url(../img/questions/question_header_base.png) repeat-x; }
+      #main #questions #questions_main #questions_header #back_button {
+        width: 70px;
+        height: 38px;
+        background: url(../img/questions/back_button.png) no-repeat;
+        color: #FFF;
+        font-family: "Ciscobold";
+        font-size: 14px;
+        text-align: center;
+        line-height: 36px;
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+        top: 17px; }
+      #main #questions #questions_main #questions_header #sections {
+        background: url(../img/questions/question_nav_base.png) no-repeat;
+        position: absolute;
+        height: 38px;
+        width: 354px;
+        top: 17px; }
+        #main #questions #questions_main #questions_header #sections .section {
+          color: #000;
+          font-family: "Ciscobold";
+          font-size: 14px;
+          text-align: center;
+          line-height: 36px;
+          float: left;
+          width: 118px; }
+          #main #questions #questions_main #questions_header #sections .section.active_left {
+            color: #FFF;
+            background: url(../img/questions/question_nav_active_left.png) no-repeat; }
+          #main #questions #questions_main #questions_header #sections .section.active_middle {
+            color: #FFF;
+            background: url(../img/questions/question_nav_active_middle.png) no-repeat; }
+          #main #questions #questions_main #questions_header #sections .section.active_right {
+            color: #FFF;
+            background: url(../img/questions/question_nav_active_right.png) no-repeat; }
+    #main #questions #questions_main #question_body {
+      background: #e0eff6;
+      padding: 20px; }
+      #main #questions #questions_main #question_body #question_index {
+        font-family: "Ciscolight";
+        color: #235193;
+        font-size: 30px;
+        line-height: 55px; }
+      #main #questions #questions_main #question_body #question_text {
+        font-family: "Ciscolight";
+        font-size: 18px;
+        margin-bottom: 20px; }
+      #main #questions #questions_main #question_body #answers {
+        font-family: "Ciscoregular";
+        font-size: 14px; }
+    #main #questions #questions_main #question_image {
+      background: #e0eff6;
+      width: 369px;
+      height: 402px;
+      position: absolute; }
+      #main #questions #questions_main #question_image img {
+        max-width: 100%; }
+    #main #questions #questions_main #questions_footer {
+      height: 43px;
+      background: #e9e9e9;
+      position: absolute; }
+    #main #questions #questions_main #question_next {
+      width: 120px;
+      height: 37px;
+      background: url(../img/button.jpg) no-repeat;
+      color: #FFF;
+      font-family: "Ciscobold";
+      font-size: 14px;
+      text-align: center;
+      line-height: 35px;
+      cursor: pointer;
+      position: absolute; }
+  #main #footer {
+    background: #FFF;
+    z-index: 13000;
+    position: absolute; }

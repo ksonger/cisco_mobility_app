@@ -32,9 +32,16 @@
     <Folder Include="App_Resources\Android\drawable-nodpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="css\fonts" />
+    <Folder Include="img\intro" />
+    <Folder Include="img\questions" />
     <Folder Include="js" />
     <Folder Include="js\json" />
     <Folder Include="js\models" />
+    <Folder Include="js\collections" />
+    <Folder Include="js\vendor\greensock" />
+    <Folder Include="js\vendor\greensock\easing" />
+    <Folder Include="js\vendor\greensock\plugins" />
     <Folder Include="js\views" />
     <Folder Include="js\tpl" />
     <Folder Include="js\routers" />
@@ -65,8 +72,24 @@
     <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".htaccess" />
+    <Content Include="css\fonts\CISCOBLA.TTF" />
+    <Content Include="css\fonts\CISCOBOL.TTF" />
+    <Content Include="css\fonts\CISCOLIG.TTF" />
+    <Content Include="css\fonts\CISCOREG.TTF" />
+    <Content Include="css\fonts\CISCOSYM.TTF" />
     <Content Include="css\main.scss" />
     <Content Include="css\normalize.css" />
+    <Content Include="img\button.jpg" />
+    <Content Include="img\header_background.jpg" />
+    <Content Include="img\intro\intro_background.jpg" />
+    <Content Include="img\intro\intro_copyblock.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\questions\back_button.png" />
+    <Content Include="img\questions\questions_image.jpg" />
+    <Content Include="img\questions\question_header_base.png" />
+    <Content Include="img\questions\question_nav_active_left.png" />
+    <Content Include="img\questions\question_nav_base.png" />
     <Content Include="index.html" />
     <Content Include="jquery-mobile\images\ajax-loader.gif" />
     <Content Include="jquery-mobile\images\icons-18-black.png" />
@@ -76,17 +99,41 @@
     <Content Include="jquery-mobile\jquery-1.8.2.min.js" />
     <Content Include="jquery-mobile\jquery.mobile-1.2.0.min.css" />
     <Content Include="jquery-mobile\jquery.mobile-1.2.0.min.js" />
-    <Content Include="js\json\questions.js" />
+    <Content Include="js\collections\MainCollection.js" />
+    <Content Include="js\json\data.json" />
     <Content Include="js\main.js" />
     <Content Include="js\models\MainModel.js" />
     <Content Include="js\plugins.js" />
     <Content Include="js\routers\Main.js" />
-    <Content Include="js\tpl\main.html" />
+    <Content Include="js\tpl\footer.html" />
+    <Content Include="js\tpl\header.html" />
+    <Content Include="js\tpl\intro.html" />
+    <Content Include="js\tpl\median.html" />
+    <Content Include="js\tpl\question.html" />
+    <Content Include="js\tpl\questions.html" />
+    <Content Include="js\tpl\summary.html" />
     <Content Include="js\utils.js" />
     <Content Include="js\vendor\backbone-min.js" />
+    <Content Include="js\vendor\greensock\easing\EasePack.min.js" />
+    <Content Include="js\vendor\greensock\plugins\BezierPlugin.min.js" />
+    <Content Include="js\vendor\greensock\plugins\ColorPropsPlugin.min.js" />
+    <Content Include="js\vendor\greensock\plugins\CSSPlugin.min.js" />
+    <Content Include="js\vendor\greensock\plugins\CSSRulePlugin.min.js" />
+    <Content Include="js\vendor\greensock\plugins\EaselPlugin.min.js" />
+    <Content Include="js\vendor\greensock\plugins\RaphaelPlugin.min.js" />
+    <Content Include="js\vendor\greensock\plugins\RoundPropsPlugin.min.js" />
+    <Content Include="js\vendor\greensock\plugins\ScrollToPlugin.js" />
+    <Content Include="js\vendor\greensock\plugins\ScrollToPlugin.min.js" />
+    <Content Include="js\vendor\greensock\TimelineLite.min.js" />
+    <Content Include="js\vendor\greensock\TimelineMax.min.js" />
+    <Content Include="js\vendor\greensock\TweenLite.min.js" />
+    <Content Include="js\vendor\greensock\TweenMax.min.js" />
     <Content Include="js\vendor\jquery-1.9.1.min.js" />
     <Content Include="js\vendor\modernizr-2.6.2.min.js" />
     <Content Include="js\vendor\underscore.js" />
+    <Content Include="js\views\FooterView.js" />
+    <Content Include="js\views\HeaderView.js" />
+    <Content Include="js\views\IntroView.js" />
     <Content Include="js\views\MainView.js" />
     <Content Include="css\main.css" />
     <Content Include="cordova.ios.js">
@@ -97,6 +144,11 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
+    <Content Include="js\views\MedianView.js" />
+    <Content Include="js\views\QuestionsView.js" />
+    <Content Include="js\views\QuestionView.js" />
+    <Content Include="js\views\StateView.js" />
+    <Content Include="js\views\SummaryView.js" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>

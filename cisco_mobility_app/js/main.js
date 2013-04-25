@@ -1,12 +1,19 @@
-function init() {
-	loadTemplates();
-}
+var db_host = "./";
 
-var loadTemplates = function()  {
-    tpl.loadTemplates(['main'], function () {
-        app = new AppRouter();
-        Backbone.history.start();
-    });
-}
+document.addEventListener("deviceready", onDeviceReady, false);
 
-init();
+function onDeviceReady() {
+	tpl.loadTemplates([
+		'intro',
+		'question',
+		'questions',
+		'header',
+		'footer',
+		'median',
+		'summary'   
+	], function () {
+		app = new AppRouter();
+		Backbone.history.start();
+	});
+	navigator.splashscreen.hide();
+}

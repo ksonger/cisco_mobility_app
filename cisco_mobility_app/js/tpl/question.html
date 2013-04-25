@@ -1,0 +1,11 @@
+<div id="question_index">
+	Question <%= count %>
+</div>
+<div id="question_text">
+	<%= question.text %>
+</div>
+<div id="answers">
+	<% _(question.answers).each(function(ans) { %>
+	<input id="<%= ans.id %>" type="radio" name="group" value="<%= ans.text %>"> <%= ans.text %><br />
+	<% }); %>
+</div>
