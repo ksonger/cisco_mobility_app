@@ -15,10 +15,26 @@
 			<img src="./img/questions/questions_image.jpg" />
 		</div>
 		<div id="question_next">Next</div>
+        
 		<div id="questions_footer">
 			<div id="progress_track">
-				<div id="progress_bar"></div>
+                <table cellpadding="0px" cellspacing="0px" id="progress_track_table">
+                    <td id="progress_track_left"></td><td id="progress_track_middle"> </td><td id="progress_track_right"></td>
+                </table>
+				<div id="progress_bar">
+                    <table cellpadding="0px" cellspacing="0px" id="progress_bar_table">
+                    <td id="progress_bar_left"></td><td id="progress_bar_middle"></td><td id="progress_bar_right"></td>
+                </table>
+                </div>
 			</div>
 		</div>
 	</div>
+    <div id="current_summary">
+            <span class="summary_heading">Below is a summary of your current use.</span><br/>
+            <span class="summary_subheading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span><br/>
+            <div id="current_responses">
+                <table id="responses_table"></table>
+                <div id="continue_button">Continue</div>
+            </div>
+        </div>
 </div>

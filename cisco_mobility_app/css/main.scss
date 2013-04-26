@@ -466,10 +466,51 @@ $cisco_symbol: 'Ciscosymbol';
                 background: #e9e9e9;
                 position:absolute;
                 #progress_track    {
-                    #progress_bar    {
-    
+                    margin-left:32px;
+                    margin-top:15.5px;
+                    height:12px;
+                    #progress_track_table    {
+                        height:12px;
+                        position:absolute;
+
+                        #progress_track_left    {
+                            width:8px;
+                            height:12px;
+                            background: url(../img/progress_track_left.png) no-repeat; 
+                        }
+                        #progress_track_middle    {
+                            height:12px;
+                            background: url(../img/progress_track_middle.png) repeat-x; 
+                        }
+                        #progress_track_right    {
+                            width:8px;
+                            height:12px;
+                            background: url(../img/progress_track_right.png) no-repeat; 
+                        }
                     }
-                }
+                    #progress_bar    {
+                        margin-left:1px;
+                        margin-top:17.5px;
+                        height:10px;
+                        position:relative;
+                        #progress_bar_table    {
+                            #progress_bar_left    {
+                                width:6px;
+                                height:10px;
+                                background: url(../img/progress_bar_left.png) no-repeat; 
+                            }
+                            #progress_bar_middle    {
+                                height:10px;
+                                background: url(../img/progress_bar_middle.png) repeat-x; 
+                            }
+                            #progress_bar_right    {
+                                width:6px;
+                                height:10px;
+                                background: url(../img/progress_bar_right.png) no-repeat; 
+                            }
+                        }
+                    }
+                }           
             }
             #question_next    {
                 width:120px;
@@ -482,6 +523,51 @@ $cisco_symbol: 'Ciscosymbol';
                 line-height:35px;
                 cursor:pointer; 
                 position:absolute;    
+            }
+        }
+        #current_summary    {
+            position:absolute;
+            top:69px;
+            z-index:13000;
+            background: #e0eff6;
+            padding:20px;
+            .summary_heading    {
+                font-family: $cisco_light;
+                color: #235193;
+                font-size:30px;
+                line-height:55px;
+            }
+            .summary_subheading    {
+                font-family: $cisco_light;
+                font-size:18px;
+                line-height:22px;
+            }
+            #responses_table    {
+                width:100%;
+                margin-top:15px;
+                td    {
+                    border: 1px solid #a3a2a2;
+                    background: #ececec;
+                    color: #545454;
+                    font-size:14px;
+                    line-height:37px;
+                    padding:5px;
+                    padding-left:10px;
+                }
+            }
+            #continue_button    {
+                width:120px;
+                height:37px;
+                background: url(../img/button.jpg) no-repeat; 
+                color: #FFF;
+                font-family: $cisco_bold;
+                font-size: 14px;
+                text-align:center;
+                line-height:35px;
+                cursor:pointer; 
+                position:absolute;
+                left:50%;
+                margin-left:-60px;    
             }
         }
     }

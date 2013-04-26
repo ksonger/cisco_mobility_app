@@ -47,7 +47,6 @@ window.MainView = Backbone.View.extend({
 			app.mainView = this;
 			this.initIntro();
 			this.initQuestions(); 
-			this.initMedian();
 			this.initSummary();
             this.initHeader();
             this.initFooter();
@@ -66,15 +65,6 @@ window.MainView = Backbone.View.extend({
 		this.questionsView = new QuestionsView();
 		this.states.push(this.questionView);
 	},
-    
-	initMedian:function () {
-		this.medianView = new MedianView();
-		this.states.push(this.medianView);
-	},
-    
-    showMedian:function()    {
-      console.log("show median");  
-    },
     
 	initSummary:function () {
 		this.summaryView = new SummaryView();

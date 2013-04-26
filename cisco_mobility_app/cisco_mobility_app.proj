@@ -85,6 +85,12 @@
     <Content Include="img\intro\intro_background.jpg" />
     <Content Include="img\intro\intro_copyblock.jpg" />
     <Content Include="img\logo.png" />
+    <Content Include="img\progress_bar_left.png" />
+    <Content Include="img\progress_bar_middle.png" />
+    <Content Include="img\progress_bar_right.png" />
+    <Content Include="img\progress_track_left.png" />
+    <Content Include="img\progress_track_middle.png" />
+    <Content Include="img\progress_track_right.png" />
     <Content Include="img\questions\back_button.png" />
     <Content Include="img\questions\questions_image.jpg" />
     <Content Include="img\questions\question_header_base.png" />
